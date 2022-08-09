@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [jae-the-castaway.github.io](https://jae-the-castaway.github.io)
+- Live Site URL: [jae-the-castaway.github.io]([https://jae-the-castaway.github.io](https://jae-the-castaway.github.io/interactive-rating-component-main/))
 
 ## My process
 
