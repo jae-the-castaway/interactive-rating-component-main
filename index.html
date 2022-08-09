@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  <!-- icon -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">        
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet"> <!-- font -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./normalize.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { color:white; font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <!-- Rating state start -->
+  
+  <section class="section section-rating">
+    <div class="box box-rating">
+      <div class="star-box"><img src="./images/icon-star.svg" alt="star-icon"></div>
+      <h1 class="title">How did we do?</h1>
+      <p class="subtitle">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div class="star-widget">
+        <form>
+          <div class="star-line">
+            <input type="radio" name="rating" value="5" id="star-5">
+            <label class="5 rating" for="star-5">5</label>
+            <input type="radio" name="rating" value="4" id="star-4">
+            <label class="4 rating" for="star-4">4</label>
+            <input type="radio" name="rating" value="3" id="star-3">
+            <label class="3 rating" for="star-3">3</label>
+            <input type="radio" name="rating" value="2" id="star-2">
+            <label class="2 rating" for="star-2">2</label>
+            <input type="radio" name="rating" value="1" id="star-1">
+            <label class="1 rating" for="star-1">1</label>
+          </div>
+        </form>
+        <button class="button" >SUBMIT</button>
+      </div> 
+    </div>
+  </section>
+      <!-- Rating state end -->
+
+      <!-- Thank you state start -->
+  <section class="section section-after">
+    <div class="box box-after">
+      <img class="ill" src="./images/illustration-thank-you.svg" alt="illustration-thank-you">
+      <div class="star 1star"><p>You selected 1 out of 5</p></div>
+      <div class="star 2star"><p>You selected 2 out of 5</p></div>
+      <div class="star 3star"><p>You selected 3 out of 5</p></div>
+      <div class="star 4star"><p>You selected 4 out of 5</p></div>
+      <div class="star 5star"><p>You selected 5 out of 5</p></div>
+      <h1 class="title title-thank">Thank you!</h1>
+      <p class="subtitle subtitle-thank">"We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+    </div>
+  </section>
+      <!-- Thank you state end -->
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

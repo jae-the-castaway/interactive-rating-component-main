@@ -1,0 +1,193 @@
+/* general preperties */
+*, *::before, *::after { box-sizing: border-box;}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%)
+}
+
+section {
+    background-image: linear-gradient(hsl(213, 19%, 18%), hsl(213, 19%, 13%));
+    width: 375px;
+    margin: 10em auto;
+    border-radius: 30px;
+}
+
+.section-rating {
+    display: block;
+}
+
+.box {
+    padding: 25px;
+    padding-bottom: 35px;
+}
+
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+
+/* star-icon  */
+
+.star-box {
+    background-color: hsla(0, 0%, 100%, 0.075);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.star-box img {
+    /* display: block; */
+    /* margin: auto; */
+    width: 45%;
+    margin-bottom: ;
+}
+
+/* typography */
+.title {
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+
+.subtitle {
+    line-height: 1.75em;
+    
+}
+
+/* star widget */
+
+input {
+    display: none;
+}
+
+
+.star-line {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    flex-direction: row-reverse;
+}
+
+label {
+    background-color: hsla(0, 0%, 100%, 0.075);
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    padding-top: 15px;
+}
+
+
+.rating:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+input:checked + label {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+input:checked + label ~ label {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+}
+
+
+
+/* button */
+
+button {
+    height: 45px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 45px;
+    align-items: center;
+    width: 100%;
+    letter-spacing: 0.20em;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    transition: color 250ms, background-color 250ms;
+}
+
+
+button:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+button:active {
+    transform: scale(1.01);
+}
+
+/* ddddddddddddd */
+
+.button-test {
+    display: block;
+    height: 45px;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 45px;
+    align-items: center;
+    width: 100%;
+    letter-spacing: 0.20em;
+    text-align: center;
+    white-space: nowrap;
+    border: none;
+    transition: color 250ms, background-color 250ms; */
+}
+
+
+.button-test:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.button-test:active {
+    transform: scale(1.01);
+} 
+
+
+
+/* thank you section */
+
+.section-after {
+    display: none;
+}
+
+.ill {
+    width: 200px;
+    margin: 20px 62.5px;
+}
+
+.star p {
+    color: hsl(25, 97%, 53%);
+    padding: 0.75em 1.25em;
+    text-align: center;
+    background-color: hsla(0, 0%, 100%, 0.075);
+    border-radius: 100px;
+    display: block;
+    margin: 10px auto;
+}
+
+.star {
+    display: flex;
+    width: ;
+}
+
+.title-thank,
+.subtitle-thank {
+    text-align: center;
+}
+
+
