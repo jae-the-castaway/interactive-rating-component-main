@@ -28,8 +28,8 @@ Users should be able to:
 ***need to develop <code>You selected 5 out of 5</code> div' changes depends on submitted data from HTML form***
 ### Screenshot
 
-![screenshot1](./images/screenshot1.png)
 
+![screenshot1](./images/screenshot1.png)
 
 ### Links
 
