@@ -28,12 +28,12 @@ Users should be able to:
 ***need to develop <code>You selected 5 out of 5</code> div' changes depends on submitted data from HTML form***
 ### Screenshot
 
-![screenshot1](./image/screenshot1.png)
 
+![screenshot1](./images/screenshot1.png)
 
 ### Links
 
-- Live Site URL: [jae-the-castaway.github.io](https://jae-the-castaway.github.io)
+- Live Site URL: [jae-the-castaway.github.io]([https://jae-the-castaway.github.io](https://jae-the-castaway.github.io/interactive-rating-component-main/))
 
 ## My process
 
